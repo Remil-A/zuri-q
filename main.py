@@ -8,9 +8,9 @@ def find_anagram(word, anagram):
     # [assignment] Add your code here
     find_anagrams("hello", "check")
     find_anagrams("below", "elbow")
-    if (sorted(word)==sorted(anagram)):
+    if (sorted(word) == sorted(anagram)):
         print("They are anagrams")
     return True
- else:
-        print("They are not anagrams ")
+    else:
+        print("They are not anagram")
         return False
